@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tailwind css </title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="stylesheet" href="./output.css">
+</head>
+
+<body>
+    <header class="container px-[16px] py-8 flex 	items-center mx-auto justify-between">
+        <nav>
+            <img src="../Logo.png" class="w-[100%] md:w-[150px] max-w-[150px]" alt="">
+        </nav>
+        <ul class=" gap-[1rem] capitalize ml-auto hidden lg:flex	">
+            <li class="hover:text-[#72d976]"><a href="">home</a></li>
+            <li class="hover:text-[#4CAF4F]"><a href="">features</a></li>
+            <li class="hover:text-[#4CAF4F]"><a href="">community</a></li>
+            <li class="hover:text-[#4CAF4F]"><a href="">Blog</a></li>
+            <li class="hover:text-[#4CAF4F]"><a href="">Pricing</a></li>
+
+        </ul>
+        <div class="md:hidden block ">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png"
+                width="20" alt="">
+        </div>
+        <button
+            class="rounded-xl hidden md:block	 md:py-2 md:px-3 md:text-[18px] px-[8px] text-[10px] bg-[#4CAF4F] text-white ml-0	md:ml-[2rem]">Register
+            Now</button>
+    </header>
+    <div class="bg-[#F5F7FA]">
+        <div
+            class="container	px-[16px] flex-col flex lg:flex-row  items-center justify-between	 max-w-6xl	mx-auto gap-[20px] py-[50px]">
+            <div>
+                <h1 class="text-3xl		md:text-4xl lg:text-6xl capitalize font-serif lg:mb-[25px] lg:leading-[1.2]	">
+                    Lessons and insights <br> <span class="text-[#4CAF4F]"> from 8
+                        years </h1>
+                <p>Where to grow your business as a photographer: site or social media?</p>
+                <button class="py-2 px-3 mt-2 md:mt-[20px] bg-[#4CAF4F] text-white	">Register Now</button>
+
+            </div>
+            <img src="../Illustration.png" class="max-w-[400px] w-[100%]" alt="">
+        </div>
+    </div>
+
+    <section class="container m-auto py-[50px]">
+        <h2 class="text-center lg:text-[32px]">
+            Our Clients
+        </h2>
+        <p class="text-center"> We have been working with some Fortune 500+ clients</p>
+
+        <div
+            class="grid gap-[25px] md:grid-cols-3 grid-cols-1 gap-5list-none text-[64px] justify-items-center	py-[50px]">
+            <div class=" bg-slate-300 p-16	block">1</div>
+            <div class=" bg-slate-300 p-16	block">2</div>
+            <div class=" bg-slate-300 p-16	block">3</div>
+
+        </div>
+    </section>
+
+    <section class="container m-auto py-[50px]">
+        <h2 class="text-center lg:text-[32px]">
+            Manage your entire community in a single system
+        </h2>
+        <p class="text-center"> Who is Nextcent suitable for?
+        </p>
+
+        <div
+            class="grid md:grid-cols-3 grid-cols-1 gap-4 text-center	list-none text-[20px] justify-items-center	py-[50px]">
+            <li>
+                <img src="../src/Icon.png" class="m-auto" alt="">
+                <p>
+                    Membership Organisations
+                </p>
+
+            </li>
+            <li>
+                <img src="../src/Icon.png" class="m-auto" alt="">
+                <p>
+                    Membership Organisations
+                </p>
+
+            </li>
+            <li>
+                <img src="../src/Icon.png" class="m-auto" alt="">
+                <p>
+                    Membership Organisations
+                </p>
+
+            </li>
+
+        </div>
+    </section>
+</body>
+
+</html>
